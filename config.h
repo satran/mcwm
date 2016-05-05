@@ -20,7 +20,7 @@
  * Modifier key to use with mouse buttons. Default Mod1, Meta on my
  * keyboard.
  */
-#define MOUSEMODKEY XCB_MOD_MASK_1
+#define MOUSEMODKEY XCB_MOD_MASK_4
 
 /*
  * Start this program when pressing MODKEY + USERKEY_TERMINAL. Needs
@@ -30,7 +30,7 @@
  *
  * Can be set from command line with "-t program".
  */
-#define TERMINAL "urxvt"
+#define TERMINAL "xterm"
 
 /*
  * Do we allow windows to be iconified? Set to true if you want this
@@ -50,7 +50,7 @@
  * Default colour on border for focused windows. Can be set from
  * command line with "-f colour".
  */
-#define FOCUSCOL "chocolate1"
+#define FOCUSCOL "black"
 
 /* Ditto for unfocused. Use "-u colour". */
 #define UNFOCUSCOL "grey40"
